@@ -1,0 +1,54 @@
+{
+  "customers": [
+    {
+      "id": "CUST-0001",
+      "name": "Apex Meridian Systems",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0002",
+      "name": "Northstar Industrial Group",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0003",
+      "name": "HelioWave Technologies",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0004",
+      "name": "SummitForge Financial",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0005",
+      "name": "BlueRiver Healthcare Network",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0006",
+      "name": "Vertex Global Logistics",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0007",
+      "name": "Orion Retail Holdings",
+      "tier": "enterprise"
+    },
+    {
+      "id": "CUST-0008",
+      "name": "BrightPath Consulting",
+      "tier": "direct"
+    },
+    {
+      "id": "CUST-0009",
+      "name": "GreenLeaf Design Studio",
+      "tier": "direct"
+    },
+    {
+      "id": "CUST-0010",
+      "name": "CloudNest Software",
+      "tier": "direct"
+    }
+  ]
+}
