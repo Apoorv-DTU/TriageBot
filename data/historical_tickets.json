@@ -1,0 +1,550 @@
+{
+    "tickets": [
+        {
+            "customer_id": "CUST-0001",
+            "ticket_id": "TKT-4856",
+            "status": "resolved",
+            "title": "Can't activate my search provider",
+            "description": "I'm trying to activate a search provider but it remains inactive. I've followed the instructions, but no luck. I need this resolved quickly as it's affecting our workflow.",
+            "resolution_notes": "Enabled the 'Integrated Search API trigger flow' in PowerApps under Solutions > Default Solution > Cloud flows, allowing the search provider to activate successfully.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage integrated search providers"
+        },
+        {
+            "customer_id": "CUST-0001",
+            "ticket_id": "TKT-4865",
+            "status": "resolved",
+            "title": "Copilot not summarizing emails accurately",
+            "description": "I'm using the Copilot feature to summarize long email threads, but the summaries seem off and sometimes miss critical details. This is impacting how I handle cases, and I need a fix quickly.",
+            "resolution_notes": "The issue was resolved by updating and ensuring the knowledge articles used by Copilot for grounding were high quality and current, which improved the accuracy of summaries.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Responsible AI FAQ for Copilot in Customer Service"
+        },
+        {
+            "customer_id": "CUST-0001",
+            "ticket_id": "TKT-4062",
+            "status": "resolved",
+            "title": "Why are work items going unassigned?",
+            "description": "I've noticed that several work items remain unassigned, even though agents are available. We might have capacity bottlenecks, but I'm not sure how to identify them.",
+            "resolution_notes": "Reviewed the agent report with the customer and identified agent status and capacity profile mismatches causing unassignment. Guided the customer on adjusting capacity profiles to optimize work distribution.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "View and understand real-time analytics for record routing in the agent report"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-4587",
+            "status": "resolved",
+            "title": "Smart Assist Suggestions not appearing",
+            "description": "I'm not seeing any AI suggestions for knowledge articles or similar cases when I open active cases in the Copilot Service Workspace. This is impacting my ability to resolve cases quickly.",
+            "resolution_notes": "Enabled the AI-suggestions and Smart Assist features in the admin panel. Confirmed that the customer's role has the necessary permissions to view suggested articles and similar cases.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "View AI-suggested similar cases and knowledge articles"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-4005",
+            "status": "resolved",
+            "title": "Can't customize reports with time spent by SMEs",
+            "description": "We're trying to modify our reports to include time spent by SMEs in handle time calculations. However, the default metrics don't consider this. How can we customize this in our data models?",
+            "resolution_notes": "Guided the customer in accessing the historical data model and explained how to create a composite dataset to include SME time spent as a custom KPI in their handle time reports.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Overview of data model customization"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-4658",
+            "status": "resolved",
+            "title": "Can't find option to schedule recurring service appointments",
+            "description": "I've been trying to set up recurring appointments for our regular customers but can't seem to find an option for it. We offer weekly maintenance services and need to schedule them automatically. Is there a way to do this?",
+            "resolution_notes": "Explained that recurring service activities are not supported. Advised creating individual service activities for each appointment instead.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Schedule a service activity"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-4701",
+            "status": "resolved",
+            "title": "Session ID issues in App Profile Manager",
+            "description": "I'm having trouble accessing the correct session ID in our app profile manager. The session seems not to fetch or focus properly, disrupting our workflow. Can you help fix this issue?",
+            "resolution_notes": "Guided the customer to use 'Microsoft.Apm.getFocusedSession()' instead of incorrect retrieval method; verified it resolved session focusing issues.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "sessionId (app profile manager)"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-4583",
+            "status": "resolved",
+            "title": "I can't enable the SMS channel for our team",
+            "description": "We're having trouble enabling the SMS channel in our Dynamics 365 Contact Center. The checkbox is grayed out even though we believe we have the necessary licenses. How can we resolve this issue?",
+            "resolution_notes": "The issue was resolved by verifying the customer's licenses and confirming they include SMS channel access. Additionally, the System Administrator role was assigned, allowing channel provisioning.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Provision channels in Dynamics 365 Contact Center"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-4035",
+            "status": "resolved",
+            "title": "Issues integrating Copilot agent with omnichannel",
+            "description": "We are experiencing problems integrating our Copilot agent with the omnichannel instance. The agent isn't routing conversations to representatives as expected. This is causing considerable delays in customer service responses.",
+            "resolution_notes": "Configured context variables and routing rules in Copilot Studio to correctly direct conversations. Tested functionality to ensure seamless integration.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Integrate a Copilot agent"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-4127",
+            "status": "resolved",
+            "title": "Queue position notification isn't working properly",
+            "description": "We have enabled the queue position feature, but our customers are not receiving their position notifications. This is causing confusion and increased call abandonment.",
+            "resolution_notes": "I checked the configuration in the Copilot Service admin center and found that the 'Customer wait time' toggle was not enabled. After enabling it and saving the settings, the queue position notifications were sent to customers as expected.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Show customers their position in a queue"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-4382",
+            "status": "resolved",
+            "title": "Survey agents not migrating properly between environments",
+            "description": "I'm trying to migrate my survey agent configuration from our development environment to production. Followed the ALM process but the AI agent status shows Not Ready in the target environment. Need urgent help.",
+            "resolution_notes": "Identified missing connection references in the target environment. Added new connections in Copilot Studio, re-imported the solution, and verified the status as Ready.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Migrate Copilot Studio survey agents configurations"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-4312",
+            "status": "resolved",
+            "title": "Can't get the live chat to start automatically",
+            "description": "I've configured the rules for engaging users, but the chat is not initiating automatically. Users aren't receiving any chat invitations as expected. What could be causing this?",
+            "resolution_notes": "Identified that the issue was due to a missing invocation of the 'startProactiveChat' method. Added necessary code to initiate the method based on engagement rules.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Live chat SDK Reference"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-4087",
+            "status": "resolved",
+            "title": "Can't close a non-anchor tab in the session",
+            "description": "When trying to close a specific tab within my session, nothing happens, even though it's not the first tab. I'm not getting any error messages, but the tab remains open.",
+            "resolution_notes": "Reviewed the tab closure logic and identified that the tab properties did not allow for closure. Ensured correct use of 'Microsoft.Apm.closeTab(tabId)' based on the session and tab capabilities.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "closeTab (app profile manager)"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-4823",
+            "status": "resolved",
+            "title": "IoT Alert not converting to a case",
+            "description": "We've received an IoT alert for one of our devices, but it's not converting to a case properly in Dynamics 365. The details seem incomplete and don't match what we see in IoT Central.",
+            "resolution_notes": "Resolved by checking Power Automate configurations to ensure the correct rules were triggered from IoT alerts and successfully integrated them with Dynamics 365.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Connected Customer Service - Overview"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-4598",
+            "status": "resolved",
+            "title": "Tabs not refreshing as expected",
+            "description": "I'm experiencing issues with refreshing a tab in the session using the 'getTab' function. The tab doesn't seem to update its content even after using the provided method from your documentation. This is causing delays in our workflow.",
+            "resolution_notes": "The issue was resolved by clarifying the correct usage of the 'getTab' method, ensuring the correct tab ID was used, and verifying the session state before attempting a refresh.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "getTab (app profile manager)"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-4865",
+            "status": "resolved",
+            "title": "Issues linking Azure subscription for pay-as-you-go billing",
+            "description": "I am unable to link my Azure subscription to the Power Platform environment for pay-as-you-go billing. I followed the steps but the system doesn't recognize my subscription. Need assistance to resolve this.",
+            "resolution_notes": "The issue was resolved by ensuring the Azure subscription was active and correctly linked through the Power Platform admin center, following the documented steps for pay-as-you-go setup.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage consumption-based billing and capacity"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-4725",
+            "status": "resolved",
+            "title": "AI agent endlessly loops escalated calls",
+            "description": "Every time our AI agent escalates a call, it seems to get reassigned back to the same AI agent, leading to an infinite loop. This is causing significant disruption in our call center operations.",
+            "resolution_notes": "Updated the routing rules to ensure conversations escalate to a human representative rather than being reassigned to the AI agent that initially handled them, breaking the loop.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": true
+            },
+            "source_doc_id": "Best practices for configuring AI agents"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-4257",
+            "status": "resolved",
+            "title": "Can't find when resources are available for scheduling",
+            "description": "I'm trying to book a service activity but cannot figure out how to view the available times for resources. I've been through the app but something seems to be missing or not accessible on my end.",
+            "resolution_notes": "Guided the customer to use the 'Schedule Board' in the Customer Service Hub to view and book available resources. Confirmed access through security roles.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Schedule a service activity"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-4007",
+            "status": "resolved",
+            "title": "Unable to access swarm group chat",
+            "description": "I've added a participant to a swarm group chat manually, but they're receiving an error saying they can't access the records. We need to resolve this quickly as it's affecting our support operations.",
+            "resolution_notes": "Manually added the user to the 'Swarm collaborators team' under Advanced Settings > Security > Teams, resolving the access issue.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Customer support swarming FAQ"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-4021",
+            "status": "resolved",
+            "title": "Currency not reflecting in booking alert",
+            "description": "I'm experiencing an issue where the currency is not displaying correctly in the booking alerts. It's supposed to show our default currency, but instead, it's blank. Can you help understand what might be causing this?",
+            "resolution_notes": "Verified the relationship between msdyn_bookingalert and TransactionCurrency entity was missing. Re-established the link to ensure the currency shows correctly in booking alerts.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Currency (TransactionCurrency) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-4832",
+            "status": "resolved",
+            "title": "Chat widget fails to authenticate users",
+            "description": "Our live chat widget isn't authenticating users properly. The token provider function seems to work, but users are unable to start a new chat session. We need urgent assistance as this affects all customer interactions.",
+            "resolution_notes": "Verified JWT token generation was correct and updated the authTokenProvider to ensure the callback was invoked with a valid JWT. Tested the live chat for successful authentication post-update.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "setAuthTokenProvider"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-4892",
+            "status": "resolved",
+            "title": "Default session isn't recognized as Home.",
+            "description": "I've noticed that the system isn't treating the main session as the Home session, and my team is having trouble routing tasks effectively. This has been causing confusion and delays.",
+            "resolution_notes": "Reviewed the 'isDefault' property in the app profile manager and set the main session as the Home session, resolving the routing issue.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "isDefault (app profile manager)"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-4572",
+            "status": "resolved",
+            "title": "Rules for auto-creating cases not working",
+            "description": "I'm having trouble with setting up automatic rules for creating cases from emails. I've followed the setup steps, but incoming emails aren't triggering any case creation. It's crucial for our workflow to have this automated.",
+            "resolution_notes": "Found that the rule wasn\u2019t activated for the specified email queue. Activated the rule, and case creation from emails is now functioning as expected.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Set up rules to automatically create or update records in the legacy app"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-4567",
+            "status": "resolved",
+            "title": "Agents are not receiving new chat assignments",
+            "description": "Our agents have reported that they are not being assigned new chat conversations, despite being available. We suspect there might be an issue with the routing configuration.",
+            "resolution_notes": "Reviewed and adjusted the routing configuration in Omnichannel to ensure proper distribution of chats to available agents.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Introduction to Omnichannel for Customer Service"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-4612",
+            "status": "resolved",
+            "title": "Issues connecting Azure Application Insights for data export",
+            "description": "We are unable to connect our Dynamics 365 Customer Service environment to Azure Application Insights. The system fails to set up the connection for data export. We have checked our permissions and they seem to be correct.",
+            "resolution_notes": "Resolved by verifying that the user had the necessary Contributor permissions on Azure and confirming the Customer Service instance was a Managed environment as required.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure conversation diagnostics"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-4763",
+            "status": "resolved",
+            "title": "Preferred representative routing not working properly",
+            "description": "I've been trying to route calls to the assigned preferred representative for our customer service and noticed that calls aren't being assigned correctly. The calls are not reaching the representatives listed in our system at all. What could be causing this?",
+            "resolution_notes": "Enabled the preferred representative routing feature and ensured all contacts were correctly mapped to their preferred representatives, verifying the representatives' presence in the correct queues.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure routing to preferred representatives"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-4872",
+            "status": "resolved",
+            "title": "Voice agents not working with the new Copilot changes",
+            "description": "After trying to migrate to the new voice-enabled Copilot, our calls stopped functioning. We followed the steps to update the voice experience, but it's been over 30 minutes and nothing is working. The changes don't seem to have synced properly.",
+            "resolution_notes": "Reviewed and confirmed the correct setup of Event Grid subscription and Azure Communication Services integration. Re-ran the voice update process and ensured successful sync completion.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Migrate workstreams to support voice-enabled Copilots"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-4008",
+            "status": "resolved",
+            "title": "Issues with call transfers dropping unexpectedly",
+            "description": "While transferring calls to another representative, the calls frequently disconnect. This is causing frustration for both the customers and the team.",
+            "resolution_notes": "Identified the issue with the call transfer feature on the agent dashboard and applied a fix by ensuring proper network connectivity and updated call routing settings. Also confirmed agents are using the 'Consult' feature appropriately before transfers.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Use agent dashboard and call controls in the voice channel"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-4023",
+            "status": "resolved",
+            "title": "Cannot link outbound messages with action cards",
+            "description": "I'm having trouble associating my outbound messages with the appropriate action cards in Dynamics 365. The system seems to ignore the regarding object IDs, and the data doesn't cascade properly when changes are made.",
+            "resolution_notes": "Reviewed the configuration of the regardingobjectid attribute and confirmed it was not properly set for msdyn_ocoutboundmessage targets. Applied the correct cascading settings and refreshed the data.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Action Card (ActionCard) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-4005",
+            "status": "resolved",
+            "title": "Can't see the AI-generated row summary in Dynamics 365",
+            "description": "I enabled the Copilot and the AI insight cards as per the requirements, but I am unable to see the AI-generated summaries on my forms. The insight bar is not displaying any summary details even after saving the record.",
+            "resolution_notes": "Ensured the record was saved and verified that the insights bar was expanded. Confirmed that the Copilot and AI insight cards features were properly enabled for the tenant.",
+            "urgency": "medium",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "View a Copilot-generated row summary in Customer Service and Dynamics 365 Contact Center"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-4672",
+            "status": "resolved",
+            "title": "Help needed with agent privileges for AI Model access",
+            "description": "Our agents are unable to access the AI Model and AI Configuration settings. This is affecting our workflow as they need these permissions to handle customer queries effectively.",
+            "resolution_notes": "Updated security roles to grant agents the required global access privileges for AI Model and AI Configuration.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Personas and privileges"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-4053",
+            "status": "resolved",
+            "title": "Can't access live chat in South America",
+            "description": "I'm unable to set up live chat for my customers in South America. The service doesn\u2019t seem available even though it should be. Please help me resolve this.",
+            "resolution_notes": "The customer's Microsoft 365 tenant location was verified to ensure it was set to a region that supports live chat in South America. Adjusted tenant settings to match the supported regions, allowing access.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "International availability of Omnichannel for Customer Service"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-4678",
+            "status": "resolved",
+            "title": "Why aren't my agents receiving any assignments?",
+            "description": "We've noticed a sudden drop in performance metrics. Our service reps are reporting that they aren't being assigned any new conversations, even though they are available and active. This is causing delays in response times and increasing our backlog.",
+            "resolution_notes": "Examined the assignment events using Application Insights and found a configuration issue with the required skills profile for agents. Corrected the skill and capacity settings to ensure proper routing.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Diagnose contact center health using Application Insights dashboard"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-4567",
+            "status": "resolved",
+            "title": "Break notifications not sent to reps",
+            "description": "We scheduled breaks using the shift schedule board, but our service reps did not receive any notifications. This is causing confusion during shifts. Can you help us figure out why the notifications aren't working?",
+            "resolution_notes": "The issue was resolved by ensuring that after scheduling the breaks, the 'Publish' button was clicked to send notifications to the representatives.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Use break distribution to assign breaks for service representatives"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-4087",
+            "status": "resolved",
+            "title": "Issue with contract_msdyn_ocoutboundmessages menu display",
+            "description": "Our team has noticed that the msdyn_ocoutboundmessages are not appearing in the associated menu for contracts. We confirmed the configuration but can't see it in the UI. This is impacting our communication tracking.",
+            "resolution_notes": "The issue was due to the 'DoNotDisplay' setting in the AssociatedMenuConfiguration for contract_msdyn_ocoutboundmessages. Changed the menu behavior to 'Display' to resolve the issue.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Contract table/entity reference (Microsoft Dynamics 365 Customer Service)"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-4821",
+            "status": "resolved",
+            "title": "Close button missing for my tab",
+            "description": "I'm trying to close a tab in the app profile manager, but the close button is not showing. This is stopping me from managing my sessions efficiently.",
+            "resolution_notes": "Verified that the 'canClose' property for the tab was incorrectly set to false. Updated the configuration to allow the tab to be closed, restoring the close button.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "canClose (app profile manager tab)"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-4213",
+            "status": "resolved",
+            "title": "Can't add an AI agent to the Microsoft Teams channel",
+            "description": "I'm trying to configure the Microsoft Teams channel and facing an issue when adding an AI agent. The error message says there is a problem with agent assignment, but it doesn't give me any details.",
+            "resolution_notes": "The bot ID was not correctly configured in the Teams Developer Portal. I updated the bot ID in the App features settings and re-published the app, which resolved the issue.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure Microsoft Teams channel"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-4327",
+            "status": "resolved",
+            "title": "Can't switch between open and closed conversations",
+            "description": "I've enabled the enhanced Active Conversation form but can't find the form selector to toggle between open and closed conversations. It's quite challenging for our workflow.",
+            "resolution_notes": "Enabled the 'Show Conversation form selector' setting in Power Apps and set the 'Setting environment value' to 'Yes' to enable toggling between open and closed conversations.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage enhanced Active Conversation settings"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-4002",
+            "status": "resolved",
+            "title": "Can't provision Omnichannel, admin consent issue",
+            "description": "We're trying to set up Omnichannel for Customer Service, but we're stuck on the admin consent step. It seems like something isn't configured properly, preventing us from proceeding.",
+            "resolution_notes": "Updated the admin consent settings in Azure AD (Microsoft Entra ID), ensuring all necessary permissions were granted, which allowed provisioning to proceed smoothly.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Provide consent to access data to provision Omnichannel for Customer Service"
+        }
+    ]
+}

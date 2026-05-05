@@ -1,0 +1,424 @@
+{
+    "tickets": [
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3015",
+            "status": "resolved",
+            "title": "Why can't I keep the same agent for my chat sessions?",
+            "description": "Every time I reconnect, I end up with a different service representative. It's frustrating to repeat my issue. Can you fix this so I can have the same agent?",
+            "resolution_notes": "Enabled the 'Keep same agent for entire conversation' setting in the workstream's work distribution configuration.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Create and manage workstreams"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-3012",
+            "status": "resolved",
+            "title": "Can't create a new workstream",
+            "description": "I'm trying to create a new workstream but keep receiving an error message about missing privileges. My permissions should be correct. Please help!",
+            "resolution_notes": "Verified the customer's role and found that they didn't have permissions to modify secure columns. Updated the role to include these permissions, and the customer was able to create the workstream without issues.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Create and manage workstreams"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3001",
+            "status": "resolved",
+            "title": "Assignments not working after rules update",
+            "description": "We updated our assignment rulesets, but now they aren't working as intended. Work isn't being routed to the correct agents, despite existing selection criteria.",
+            "resolution_notes": "Reviewed the selection criteria for multiple rulesets and corrected a misconfigured condition that was overriding preferred rules. After updating the criteria, assignments are routed correctly.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure assignment methods and rules for queues"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-3002",
+            "status": "resolved",
+            "title": "Issue with prioritization ruleset creation",
+            "description": "I tried to set up a new prioritization ruleset using a template, but it's not letting me modify the decision rules as expected. It should allow this modification at the queue level.",
+            "resolution_notes": "Identified that a non-modifiable template was selected. Instructed the customer to use 'Copy from template' which allows modifications and they successfully created the ruleset.",
+            "urgency": "medium",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure assignment methods and rules for queues"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3003",
+            "status": "resolved",
+            "title": "Confusion over selection criteria for multiple rulesets",
+            "description": "We have multiple assignment rulesets and are facing an issue defining the right selection criteria. The system defaults to a non-preferred ruleset, causing inefficient work routing.",
+            "resolution_notes": "Configured specific selection criteria rules to ensure the preferred ruleset is prioritized over others, resolving the defaulting issue.",
+            "urgency": "low",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure assignment methods and rules for queues"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3091",
+            "status": "resolved",
+            "title": "Can't route cases to agents",
+            "description": "We've noticed that our cases aren't being routed to the available agents properly. They're just idling in the system.",
+            "resolution_notes": "Enabled unified routing in the service configuration settings to ensure cases are properly assigned through the workstreams.",
+            "urgency": "high",
+            "intent": {
+                "label": "routing_and_assignment",
+                "ambiguous": false
+            },
+            "source_doc_id": "Create and manage workstreams"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-3001",
+            "status": "resolved",
+            "title": "Can't turn on Copilot features for all representatives",
+            "description": "I tried to enable the Copilot features in the workspace, but some representatives are unable to access it. They are added to the experience profiles as required, but still facing this issue. Urgent assistance required.",
+            "resolution_notes": "Confirmed that representatives were added to the appropriate experience profiles and ensured that the Copilot toggle was activated for all necessary features within those profiles.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage Copilot features in Customer Service"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3002",
+            "status": "resolved",
+            "title": "Data movement issue with Copilot features",
+            "description": "I am receiving an error message regarding data movement to enable Copilot features. We are based in a region where it's not enabled by default, and I'm not sure how to proceed.",
+            "resolution_notes": "Navigated to the Power Platform admin center and enabled data movement across regions, which resolved the data movement error for Copilot features.",
+            "urgency": "medium",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage Copilot features in Customer Service"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-3003",
+            "status": "resolved",
+            "title": "Representatives unable to record interactions with Copilot",
+            "description": "Our representatives reported that the option to record Copilot interactions isn't available. We've followed the setup instructions, but the feature isn't appearing as expected. This is causing delays in reviewing interactions.",
+            "resolution_notes": "Checked configuration settings and enabled the option to 'Record transcripts of representative interactions' within the Copilot settings pages.",
+            "urgency": "medium",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Manage Copilot features in Customer Service"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3001",
+            "status": "resolved",
+            "title": "Copilot summary not capturing error codes",
+            "description": "We customized our Copilot to include error codes in conversation summaries. However, it often misses out including them, even when customers mention them clearly. This is affecting our reporting.",
+            "resolution_notes": "Reviewed the Copilot settings and identified a misconfiguration in the error codes selection, applied correct sample error codes for better detection.",
+            "urgency": "medium",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Customize Copilot conversation summaries"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-3002",
+            "status": "resolved",
+            "title": "Copilot not summarizing root cause",
+            "description": "We've selected 'Root Cause' in the structured summary format, but the summaries generated by Copilot frequently omit this section. This is crucial for our service reps to understand issues more effectively.",
+            "resolution_notes": "Found that the 'Root Cause' option was not saved properly in settings; reapplied it to ensure inclusion in summaries.",
+            "urgency": "high",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Customize Copilot conversation summaries"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-3003",
+            "status": "resolved",
+            "title": "Unable to format summaries in paragraphs",
+            "description": "I am unable to switch the summary format to 'Paragraph' in Copilot settings. It defaults to 'Structured' despite changing the settings, which is not suitable for our needs.",
+            "resolution_notes": "Resolved by ensuring the correct navigation path was used and reapplying the 'Paragraph' format in the admin settings.",
+            "urgency": "low",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": false
+            },
+            "source_doc_id": "Customize Copilot conversation summaries"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3987",
+            "status": "resolved",
+            "title": "Cannot set status reason to 'On Hold'",
+            "description": "I'm trying to update a case status to 'Active' and set the status reason to 'On Hold', but the option is not available. It used to show up before. What could be causing this change?",
+            "resolution_notes": "Reviewed and updated status reason transitions in Power Apps, allowing 'On Hold' as a valid status reason for 'Active' status.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Add status reason, status reason transitions to manage cases"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-3745",
+            "status": "resolved",
+            "title": "Missing default choice for status reason",
+            "description": "When creating a new case, the 'Status Reason' field doesn't have a default value set. This slows down our process, as every case requires manual input. What can be done to set this up properly?",
+            "resolution_notes": "Set a default choice for the 'Status Reason' field in the Case table through Power Apps, streamlining the case creation process.",
+            "urgency": "low",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Add status reason, status reason transitions to manage cases"
+        },
+        {
+            "customer_id": "CUST-0006",
+            "ticket_id": "TKT-3689",
+            "status": "resolved",
+            "title": "Unable to modify status reason transitions",
+            "description": "I've been trying to set up specific transitions for status reasons to guide our team through the process, but I'm getting errors during the setup. The system doesn't allow certain changes. How can I fix this?",
+            "resolution_notes": "Checked and corrected permissions for editing status reason transitions in Power Apps, allowing required modifications for custom status flows.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Add status reason, status reason transitions to manage cases"
+        },
+        {
+            "customer_id": "CUST-0008",
+            "ticket_id": "TKT-3003",
+            "status": "resolved",
+            "title": "Difficulty in setting up a business process flow",
+            "description": "I'm having trouble creating a business process flow for new cases. The steps seem confusing and it's not guiding me the way I expected.",
+            "resolution_notes": "Provided detailed instructions and examples on setting up a business process flow, including creating stages and steps correctly.",
+            "urgency": "low",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Overview of case management"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3943",
+            "status": "resolved",
+            "title": "Can't see similar cases in Customer Hub",
+            "description": "I'm trying to view similar cases in the Customer Service Hub, but nothing appears in the 'Similar Cases' section. I need this feature to resolve issues faster.",
+            "resolution_notes": "Enabled the advanced similarity rule in the system settings, ensuring Relevance search was activated to display accurate similar case suggestions.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Use advanced similarity rules to view similar case suggestions"
+        },
+        {
+            "customer_id": "CUST-0004",
+            "ticket_id": "TKT-3048",
+            "status": "resolved",
+            "title": "Can't update resolved case for GDPR compliance",
+            "description": "Our team needs to update some resolved case details to comply with GDPR regulations, but the system doesn’t allow it. We've been trying to remove certain personal data without reopening the case.",
+            "resolution_notes": "Enabled the option to allow updates to resolved and canceled cases in the Case Settings. Guided the customer to use Power Automate to update the resolved cases for GDPR compliance without reopening.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Allow updates for resolved and canceled cases"
+        },
+        {
+            "customer_id": "CUST-0009",
+            "ticket_id": "TKT-3075",
+            "status": "resolved",
+            "title": "Need to configure flow for updating closed cases",
+            "description": "We want to set up a Power Automate flow to update the descriptions in our closed case records. However, it seems impossible to make changes without reopening cases.",
+            "resolution_notes": "Configured settings to allow updates to closed cases and instructed the customer on setting up Power Automate flows to update descriptions without reopening.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": false
+            },
+            "source_doc_id": "Allow updates for resolved and canceled cases"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3001",
+            "status": "resolved",
+            "title": "Can't authenticate chat users",
+            "description": "I'm trying to add authentication for our chat widget but keep getting an error when the token is passed. How can I resolve this?",
+            "resolution_notes": "Updated the authentication settings to properly configure the public key URL and tested the JWT signature with the correct algorithm.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure authentication settings"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-3002",
+            "status": "resolved",
+            "title": "Problem with JWT signature validation",
+            "description": "We've set up the JWT but the chat widget is returning an invalid token error. What should we check to fix this?",
+            "resolution_notes": "Validated the public key URL configuration and ensured the JWT was being signed with the corresponding private key.",
+            "urgency": "medium",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure authentication settings"
+        },
+        {
+            "customer_id": "CUST-0010",
+            "ticket_id": "TKT-3003",
+            "status": "resolved",
+            "title": "Need to set public key URL for authentication",
+            "description": "Our developer is confused about how to generate the public key and configure the URL. Can you provide some guidance?",
+            "resolution_notes": "Provided steps to generate a public/private key pair using RSA256 and updated the public key endpoint configuration in their settings.",
+            "urgency": "low",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Configure authentication settings"
+        },
+        {
+            "customer_id": "CUST-0001",
+            "ticket_id": "TKT-3012",
+            "status": "resolved",
+            "title": "Missing role to edit user queues",
+            "description": "I’m unable to edit the queue assignments for some of the users. When I try, I receive an error message that says I don’t have the necessary permissions. Can you help me fix this?",
+            "resolution_notes": "Assigned the 'Omnichannel administrator' role to the user, allowing the necessary permissions to edit queue assignments.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Assign roles and enable users"
+        },
+        {
+            "customer_id": "CUST-0002",
+            "ticket_id": "TKT-3027",
+            "status": "resolved",
+            "title": "Cannot access authentication settings",
+            "description": "I'm trying to set up authentication for our new chat features, but I don't have any access to the authentication settings. Is there a special role or privilege needed to handle this?",
+            "resolution_notes": "Granted the 'Omnichannel administrator' role to enable access to edit authentication settings.",
+            "urgency": "medium",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Assign roles and enable users"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3045",
+            "status": "resolved",
+            "title": "Help with managing secret attributes",
+            "description": "I need to update some of the secret attributes for our communication provider settings, but it seems I lack the necessary permissions. How can I get the required access?",
+            "resolution_notes": "Updated the security profile to include access to secure columns for the required secret attributes.",
+            "urgency": "medium",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": false
+            },
+            "source_doc_id": "Assign roles and enable users"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-3127",
+            "status": "resolved",
+            "title": "Language mismatch causing suggestion issues",
+            "description": "Although AI suggestions are enabled, they aren't showing up for some cases. I suspect it might be due to language settings not matching the language in the case.",
+            "resolution_notes": "Identified a mismatch in language settings between AI and user interface. Guided the user to synchronize their language preferences to supported options.",
+            "urgency": "medium",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": true
+            },
+            "source_doc_id": "Enable AI suggestions for similar cases and knowledge articles"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3004",
+            "status": "resolved",
+            "title": "Can't access the Ongoing Conversations dashboard",
+            "description": "I'm unable to see the Ongoing Conversations dashboard in my Unified Service Desk. I've been assigned as an Omnichannel supervisor, but still no luck.",
+            "resolution_notes": "The user's profile was updated by ensuring they were properly added to the supervisor configuration in Unified Service Desk, enabling the dashboard access.",
+            "urgency": "high",
+            "intent": {
+                "label": "authentication_and_access",
+                "ambiguous": true
+            },
+            "source_doc_id": "Manage access to Ongoing Conversations dashboard"
+        },
+        {
+            "customer_id": "CUST-0005",
+            "ticket_id": "TKT-3054",
+            "status": "resolved",
+            "title": "Supervisors can't monitor conversations.",
+            "description": "Our supervisors are unable to access the conversation monitoring tool. They should be able to oversee interactions for quality purposes, but the feature seems unavailable.",
+            "resolution_notes": "Enabled Supervisor Monitor permission in the admin app to allow supervisors to monitor conversations.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": true
+            },
+            "source_doc_id": "Enable supervisor access to manage conversations"
+        },
+        {
+            "customer_id": "CUST-0003",
+            "ticket_id": "TKT-3145",
+            "status": "resolved",
+            "title": "Issue with case updates not saving correctly",
+            "description": "I've noticed that cases aren't updating automatically after a conversation ends. The fields I expect to be filled are left blank, which slows down our workflow significantly. Can someone assist us with fixing this?",
+            "resolution_notes": "Enabled autonomous case update rules and ensured AI form fill assistance was activated, allowing the AI agent to update fields automatically after conversations.",
+            "urgency": "high",
+            "intent": {
+                "label": "case_and_conversation_management",
+                "ambiguous": true
+            },
+            "source_doc_id": "Set up Case Management Agent to create and update cases"
+        },
+        {
+            "customer_id": "CUST-0007",
+            "ticket_id": "TKT-3289",
+            "status": "resolved",
+            "title": "AI predictions seem inaccurate",
+            "description": "After configuring the AI agent for email case creation, the fields like Issue Description and Priority are often incorrect. This results in misaligned cases that need manual correction. Could you guide us on how to improve prediction accuracy?",
+            "resolution_notes": "Updated the AI prediction settings with more descriptive lookup field data, enhancing the accuracy of the AI predictions in autonomous case creation.",
+            "urgency": "medium",
+            "intent": {
+                "label": "copilot_and_ai_features",
+                "ambiguous": true
+            },
+            "source_doc_id": "Set up Case Management Agent to create and update cases"
+        }
+    ]
+}
